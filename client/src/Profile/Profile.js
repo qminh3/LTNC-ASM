@@ -174,7 +174,7 @@ class InfoStudent extends Component {
                 />
               </Image_div>
               <Left_div>
-                <p>Mã sinh viên: </p>
+                <p>Mã số sinh viên: </p>
                 <label>{msv}</label>
                 <p>Giới tính:</p>
                 <label>{gender}</label>
@@ -197,7 +197,8 @@ class InfoStudent extends Component {
               </Left_div>
               <Right_div>
                 <p>Lớp: </p>
-                <label> {lop} </label>
+                {/* <label> {lop} </label> */}
+                <label> KH06MT22 </label>
                 <p>SĐT: </p>
                 <input
                   style={{ width: "90%" }}
@@ -223,7 +224,8 @@ class InfoStudent extends Component {
           <Gpa_site>
             <Title_gpa>Điểm số</Title_gpa>
             <p>Tổng số tín chỉ đã đăng ký:</p>
-            <label>{sum_of_credits}/158</label>
+            {/* <label>{sum_of_credits}/158</label> */}
+            <label>47</label>
             <br />
             <progress min='0' max='158' value={sum_of_credits}></progress>
             <p style={{ marginTop: "30px" }}>Điểm trung bình :</p>

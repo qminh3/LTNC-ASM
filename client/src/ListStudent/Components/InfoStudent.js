@@ -163,7 +163,7 @@ class InfoStudent extends Component {
                 />
               </Image_div>
               <Left_div>
-                <p>Mã sinh viên: </p>
+                <p>Mã số sinh viên: </p>
                 <label>{student.msv}</label>
                 <p style={{ marginTop: "10px" }}>Họ và tên: </p>
                 <input

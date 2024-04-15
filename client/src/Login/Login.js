@@ -6,7 +6,6 @@ import styled from "styled-components";
 import { FaUser } from "react-icons/fa";
 import { RiLockPasswordFill } from "react-icons/ri";
 import Logo from "./bku.png";
-// import AppLogo from "./applogo_1.png";
 import AppBackground from "./backgroud.png";
 
 const Body = styled.div`
